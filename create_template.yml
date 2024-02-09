@@ -1,0 +1,19 @@
+task: create
+host: 
+username: 
+password: 
+input_dir: 
+input_csv: 
+allow_adding_terms:
+
+<!-- 
+task: this tells workbench what you want to do. In the case of creating nodes, you will use the 'create' task
+host: the url of your isladnora repository
+username: your username for the repository. you must have admin privliges to use workbench.
+password: your password for your repository account
+input_dir: where the files you are uploading live on your computer
+input_csv: the csv that contains the metadata for your 
+allow_adding_terms: this will add metadata in controlled fields to their respective taxonomies if they are not already present
+
+To use this template, fill in the necessary information on lines 1-7 and erase this explanatory note
+-->
